@@ -1,6 +1,6 @@
 # Kanori - Personal Portafolio
 
-Kanori is a landing page of a personal portfolio, used to create a personal brand.
+Kanory is a landing page of a personal portfolio, used to create a personal brand.
 
 ## Features:
 
