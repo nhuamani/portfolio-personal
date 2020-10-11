@@ -5,6 +5,14 @@
 }
 
 body {
-  margin : 0;
-  font-family : $font-family;
+  margin: 0;
+  font-family: var(--body-font);
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }

@@ -1,13 +1,6 @@
 /*
   This boilerplate is based in ITCSS and SMACSS
 */
-// 1. Personalice sus variables
-$prototype: false;
-$dev: false;
-$dev-hover: false;
-$legacy: false;
-// 2. Importe EDgrid
-@import "~ed-grid/ed-grid";
 
 // Config
 @import "config/functions";

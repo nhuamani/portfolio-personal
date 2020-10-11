@@ -11,7 +11,7 @@ Puede integrar markdown con pug de cualquiera de las tres formas siguientes:
 
 ```
 :markdown-it(html)
-    ##Hola humano, este no es un **párrafo** es un h2    
+    ##Hola humano, este no es un **párrafo** es un h2
     <p>Soy un elemento HTML dentro de Markdown </p>
 ```
 

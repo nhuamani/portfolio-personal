@@ -1,2 +1,18 @@
 // Typography
-$font-family: 'sans-serif';
+$font-family: "sans-serif";
+
+:root {
+  // Colors
+  --theme-color: #fd5c55;
+  --light-color: #fbf4e0;
+  --border-color: #282c3e;
+  --white-color: #ffffff;
+  --dark-color: #1f2233;
+  --dark-color-alt: #24283d;
+  --accent-color: #333856;
+  --line-color: #8a8a8a;
+
+  // Typography
+  --body-font: "Open Sans", "Roboto", sans-serif;
+  --heading-font: "Montserrat", sans-serif;
+}
