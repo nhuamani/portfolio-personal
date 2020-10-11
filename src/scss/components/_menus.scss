@@ -151,16 +151,19 @@
           color: var(--theme-color);
           border: 1px solid var(--theme-color);
           border-radius: 0.25em;
-          padding: 10px 18px;
+          padding: 0.5em 1.2em;
+
+          &:hover {
+            background-color: var(--theme-color);
+            color: var(--light-color);
+          }
         }
       }
 
       &__link {
         min-width: 100%;
-        color: var(--light-color);
 
         &:hover {
-          color: var(--theme-color);
           padding-left: 1em;
         }
       }
