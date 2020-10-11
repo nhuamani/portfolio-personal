@@ -1,5 +1,10 @@
-nav.main-menu(itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation")#main-menu
-  ul
+nav.main-nav(itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation")#main-nav
+  div.main-brand
+    a(href="/").main-brand__logo
+      span K
+      |anory
+
+  ul.main-menu#main-menu
     each page in pages
       li.main-menu__item(itemprop="url")
           a.main-menu__link(href=page.url itemprop="name")= page.title
@@ -7,3 +12,8 @@ nav.main-menu(itemscope itemtype="http://schema.org/SiteNavigationElement" role=
               ul 
                 each page2 in page.child
                   li: a(href= page2.url)= page2.title
+
+  .main-menu-toggle#main-menu-toggle
+    span.bar
+    span.bar
+    span.bar
